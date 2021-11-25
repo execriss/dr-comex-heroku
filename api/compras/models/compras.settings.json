@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compras",
+  "info": {
+    "name": "compras"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vendidos": {
+      "type": "string"
+    },
+    "total": {
+      "type": "decimal"
+    },
+    "dni": {
+      "type": "integer"
+    },
+    "titular_tarjeta": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "detalles_estado": {
+      "type": "string"
+    },
+    "telefono_comprador": {
+      "type": "integer"
+    },
+    "direccion_comprador": {
+      "type": "string"
+    },
+    "ciudad_comprador": {
+      "type": "string"
+    },
+    "nombre_comprador": {
+      "type": "string"
+    }
+  }
+}
